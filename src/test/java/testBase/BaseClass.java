@@ -1,5 +1,5 @@
 package testBase;
-
+// This is a base class 
 import java.io.File;
 import java.io.IOException;
 import java.time.Duration;
