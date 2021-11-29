@@ -1,5 +1,5 @@
 package testBase;
-// This is a base class 
+// This is a base class added to remote repository
 import java.io.File;
 import java.io.IOException;
 import java.time.Duration;
