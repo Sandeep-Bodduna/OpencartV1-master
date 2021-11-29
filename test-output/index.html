@@ -1,0 +1,1346 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button class="button" id="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-OpenCart_TestSuite">
+              <span class="suite-name border-failed">OpenCart TestSuite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-OpenCart_TestSuite">
+                    <span>C:\Users\admin\myworkspace\opencartV1-master\alltests.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-OpenCart_TestSuite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-OpenCart_TestSuite">
+                    <span>3 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-OpenCart_TestSuite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-OpenCart_TestSuite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-OpenCart_TestSuite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-OpenCart_TestSuite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">27 methods, 2 failed,   25 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-OpenCart_TestSuite" class="hide-methods failed suite-OpenCart_TestSuite"> (hide)</a> <!-- hide-methods failed suite-OpenCart_TestSuite -->
+                      <a href="#" panel-name="suite-OpenCart_TestSuite" class="show-methods failed suite-OpenCart_TestSuite"> (show)</a> <!-- show-methods failed suite-OpenCart_TestSuite -->
+                    </span>
+                    <div class="method-list-content failed suite-OpenCart_TestSuite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-OpenCart_TestSuite" title="testCases.TC_005_Addcart" hash-for-method="test_addcart">test_addcart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-OpenCart_TestSuite" title="testCases.TC_011_Checkout" hash-for-method="test_checkout">test_checkout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-OpenCart_TestSuite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-OpenCart_TestSuite" class="hide-methods passed suite-OpenCart_TestSuite"> (hide)</a> <!-- hide-methods passed suite-OpenCart_TestSuite -->
+                      <a href="#" panel-name="suite-OpenCart_TestSuite" class="show-methods passed suite-OpenCart_TestSuite"> (show)</a> <!-- show-methods passed suite-OpenCart_TestSuite -->
+                    </span>
+                    <div class="method-list-content passed suite-OpenCart_TestSuite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-OpenCart_TestSuite" title="testCases.TC_015_AddressBook" hash-for-method="test_Addressbook">test_Addressbook</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-OpenCart_TestSuite" title="testCases.TC_027_GiftCertificate" hash-for-method="test_HeaderFooterMenuOptions">test_HeaderFooterMenuOptions</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-OpenCart_TestSuite" title="testCases.TC_026_HeaderMenuFooterOptions" hash-for-method="test_HeaderFooterMenuOptions">test_HeaderFooterMenuOptions</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-OpenCart_TestSuite" title="testCases.TC_002_Login" hash-for-method="test_Login">test_Login</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-OpenCart_TestSuite" title="testCases.TC_013_MyAccountInformation" hash-for-method="test_MyAccountInformation">test_MyAccountInformation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-OpenCart_TestSuite" title="testCases.TC_012_MyAccount" hash-for-method="test_Myaccount">test_Myaccount</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-OpenCart_TestSuite" title="testCases.TC_023_Affiliate" hash-for-method="test_Newletter">test_Newletter</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-OpenCart_TestSuite" title="testCases.TC_022_Newsletter" hash-for-method="test_Newletter">test_Newletter</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-OpenCart_TestSuite" title="testCases.TC_016_OderHistory" hash-for-method="test_OrderHistory">test_OrderHistory</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-OpenCart_TestSuite" title="testCases.TC_021_RecurringPayment" hash-for-method="test_RecurringPayment">test_RecurringPayment</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-OpenCart_TestSuite" title="testCases.TC_019_Returns" hash-for-method="test_Returns">test_Returns</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-OpenCart_TestSuite" title="testCases.TC_018_RewardPoints" hash-for-method="test_RewardPoint">test_RewardPoint</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-OpenCart_TestSuite" title="testCases.TC_010_ShoppingCart" hash-for-method="test_ShoppingCart">test_ShoppingCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-OpenCart_TestSuite" title="testCases.TC_001_AccountRegistration" hash-for-method="test_account_Registration">test_account_Registration</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-OpenCart_TestSuite" title="testCases.TC_014_ChangePassword" hash-for-method="test_changepassword">test_changepassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-OpenCart_TestSuite" title="testCases.TC_025_SpecialOffer" hash-for-method="test_contactus">test_contactus</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-OpenCart_TestSuite" title="testCases.TC_024_ContactUs" hash-for-method="test_contactus">test_contactus</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-OpenCart_TestSuite" title="testCases.TC_028_Currency" hash-for-method="test_currency">test_currency</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-OpenCart_TestSuite" title="testCases.TC_017_Downloads" hash-for-method="test_downloads">test_downloads</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-OpenCart_TestSuite" title="testCases.TC_009_ForgotPassword" hash-for-method="test_forgotpassword">test_forgotpassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-OpenCart_TestSuite" title="testCases.TC_006_ProductCompare" hash-for-method="test_productcompare">test_productcompare</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-OpenCart_TestSuite" title="testCases.TC_008_ProductDisplayPage" hash-for-method="test_productdisplay">test_productdisplay</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-OpenCart_TestSuite" title="testCases.TC_004Search" hash-for-method="test_search">test_search</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-OpenCart_TestSuite" title="testCases.TC_020_Transections" hash-for-method="test_transections">test_transections</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-OpenCart_TestSuite" title="testCases.TC_007_WishList" hash-for-method="test_wishlist">test_wishlist</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-OpenCart_TestSuite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-OpenCart_TestSuite" class="panel OpenCart_TestSuite">
+          <div class="suite-OpenCart_TestSuite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testCases.TC_005_Addcart</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_addcart">
+                  </a> <!-- test_addcart -->
+                  <span class="method-name">test_addcart</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at testCases.TC_005_Addcart.test_addcart(TC_005_Addcart.java:59)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 22 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-OpenCart_TestSuite-class-failed -->
+          <div class="suite-OpenCart_TestSuite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testCases.TC_011_Checkout</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_checkout">
+                  </a> <!-- test_checkout -->
+                  <span class="method-name">test_checkout</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at testCases.TC_011_Checkout.test_checkout(TC_011_Checkout.java:57)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 22 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-OpenCart_TestSuite-class-failed -->
+          <div class="suite-OpenCart_TestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.TC_012_MyAccount</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_Myaccount">
+                  </a> <!-- test_Myaccount -->
+                  <span class="method-name">test_Myaccount</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-OpenCart_TestSuite-class-passed -->
+          <div class="suite-OpenCart_TestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.TC_004Search</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_search">
+                  </a> <!-- test_search -->
+                  <span class="method-name">test_search</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-OpenCart_TestSuite-class-passed -->
+          <div class="suite-OpenCart_TestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.TC_015_AddressBook</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_Addressbook">
+                  </a> <!-- test_Addressbook -->
+                  <span class="method-name">test_Addressbook</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-OpenCart_TestSuite-class-passed -->
+          <div class="suite-OpenCart_TestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.TC_008_ProductDisplayPage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_productdisplay">
+                  </a> <!-- test_productdisplay -->
+                  <span class="method-name">test_productdisplay</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-OpenCart_TestSuite-class-passed -->
+          <div class="suite-OpenCart_TestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.TC_006_ProductCompare</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_productcompare">
+                  </a> <!-- test_productcompare -->
+                  <span class="method-name">test_productcompare</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-OpenCart_TestSuite-class-passed -->
+          <div class="suite-OpenCart_TestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.TC_021_RecurringPayment</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_RecurringPayment">
+                  </a> <!-- test_RecurringPayment -->
+                  <span class="method-name">test_RecurringPayment</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-OpenCart_TestSuite-class-passed -->
+          <div class="suite-OpenCart_TestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.TC_001_AccountRegistration</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_account_Registration">
+                  </a> <!-- test_account_Registration -->
+                  <span class="method-name">test_account_Registration</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-OpenCart_TestSuite-class-passed -->
+          <div class="suite-OpenCart_TestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.TC_028_Currency</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_currency">
+                  </a> <!-- test_currency -->
+                  <span class="method-name">test_currency</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-OpenCart_TestSuite-class-passed -->
+          <div class="suite-OpenCart_TestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.TC_010_ShoppingCart</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_ShoppingCart">
+                  </a> <!-- test_ShoppingCart -->
+                  <span class="method-name">test_ShoppingCart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-OpenCart_TestSuite-class-passed -->
+          <div class="suite-OpenCart_TestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.TC_016_OderHistory</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_OrderHistory">
+                  </a> <!-- test_OrderHistory -->
+                  <span class="method-name">test_OrderHistory</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-OpenCart_TestSuite-class-passed -->
+          <div class="suite-OpenCart_TestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.TC_018_RewardPoints</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_RewardPoint">
+                  </a> <!-- test_RewardPoint -->
+                  <span class="method-name">test_RewardPoint</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-OpenCart_TestSuite-class-passed -->
+          <div class="suite-OpenCart_TestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.TC_013_MyAccountInformation</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_MyAccountInformation">
+                  </a> <!-- test_MyAccountInformation -->
+                  <span class="method-name">test_MyAccountInformation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-OpenCart_TestSuite-class-passed -->
+          <div class="suite-OpenCart_TestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.TC_014_ChangePassword</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_changepassword">
+                  </a> <!-- test_changepassword -->
+                  <span class="method-name">test_changepassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-OpenCart_TestSuite-class-passed -->
+          <div class="suite-OpenCart_TestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.TC_022_Newsletter</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_Newletter">
+                  </a> <!-- test_Newletter -->
+                  <span class="method-name">test_Newletter</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-OpenCart_TestSuite-class-passed -->
+          <div class="suite-OpenCart_TestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.TC_027_GiftCertificate</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_HeaderFooterMenuOptions">
+                  </a> <!-- test_HeaderFooterMenuOptions -->
+                  <span class="method-name">test_HeaderFooterMenuOptions</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-OpenCart_TestSuite-class-passed -->
+          <div class="suite-OpenCart_TestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.TC_009_ForgotPassword</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_forgotpassword">
+                  </a> <!-- test_forgotpassword -->
+                  <span class="method-name">test_forgotpassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-OpenCart_TestSuite-class-passed -->
+          <div class="suite-OpenCart_TestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.TC_023_Affiliate</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_Newletter">
+                  </a> <!-- test_Newletter -->
+                  <span class="method-name">test_Newletter</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-OpenCart_TestSuite-class-passed -->
+          <div class="suite-OpenCart_TestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.TC_017_Downloads</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_downloads">
+                  </a> <!-- test_downloads -->
+                  <span class="method-name">test_downloads</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-OpenCart_TestSuite-class-passed -->
+          <div class="suite-OpenCart_TestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.TC_019_Returns</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_Returns">
+                  </a> <!-- test_Returns -->
+                  <span class="method-name">test_Returns</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-OpenCart_TestSuite-class-passed -->
+          <div class="suite-OpenCart_TestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.TC_002_Login</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_Login">
+                  </a> <!-- test_Login -->
+                  <span class="method-name">test_Login</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-OpenCart_TestSuite-class-passed -->
+          <div class="suite-OpenCart_TestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.TC_007_WishList</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_wishlist">
+                  </a> <!-- test_wishlist -->
+                  <span class="method-name">test_wishlist</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-OpenCart_TestSuite-class-passed -->
+          <div class="suite-OpenCart_TestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.TC_020_Transections</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_transections">
+                  </a> <!-- test_transections -->
+                  <span class="method-name">test_transections</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-OpenCart_TestSuite-class-passed -->
+          <div class="suite-OpenCart_TestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.TC_025_SpecialOffer</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_contactus">
+                  </a> <!-- test_contactus -->
+                  <span class="method-name">test_contactus</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-OpenCart_TestSuite-class-passed -->
+          <div class="suite-OpenCart_TestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.TC_024_ContactUs</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_contactus">
+                  </a> <!-- test_contactus -->
+                  <span class="method-name">test_contactus</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-OpenCart_TestSuite-class-passed -->
+          <div class="suite-OpenCart_TestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.TC_026_HeaderMenuFooterOptions</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_HeaderFooterMenuOptions">
+                  </a> <!-- test_HeaderFooterMenuOptions -->
+                  <span class="method-name">test_HeaderFooterMenuOptions</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-OpenCart_TestSuite-class-passed -->
+        </div> <!-- panel OpenCart_TestSuite -->
+        <div panel-name="test-xml-OpenCart_TestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\admin\myworkspace\opencartV1-master\alltests.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;2&quot; name=&quot;OpenCart TestSuite&quot; parallel=&quot;tests&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;utilities.ExtentReportManager&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;2&quot; name=&quot;OpenCart Tests&quot; parallel=&quot;tests&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testCases.TC_001_AccountRegistration&quot;/&gt;
+      &lt;class name=&quot;testCases.TC_002_Login&quot;/&gt;
+      &lt;class name=&quot;testCases.TC_004Search&quot;/&gt;
+      &lt;class name=&quot;testCases.TC_005_Addcart&quot;/&gt;
+      &lt;class name=&quot;testCases.TC_006_ProductCompare&quot;/&gt;
+      &lt;class name=&quot;testCases.TC_007_WishList&quot;/&gt;
+      &lt;class name=&quot;testCases.TC_008_ProductDisplayPage&quot;/&gt;
+      &lt;class name=&quot;testCases.TC_009_ForgotPassword&quot;/&gt;
+      &lt;class name=&quot;testCases.TC_010_ShoppingCart&quot;/&gt;
+      &lt;class name=&quot;testCases.TC_011_Checkout&quot;/&gt;
+      &lt;class name=&quot;testCases.TC_012_MyAccount&quot;/&gt;
+      &lt;class name=&quot;testCases.TC_013_MyAccountInformation&quot;/&gt;
+      &lt;class name=&quot;testCases.TC_014_ChangePassword&quot;/&gt;
+      &lt;class name=&quot;testCases.TC_015_AddressBook&quot;/&gt;
+      &lt;class name=&quot;testCases.TC_016_OderHistory&quot;/&gt;
+      &lt;class name=&quot;testCases.TC_017_Downloads&quot;/&gt;
+      &lt;class name=&quot;testCases.TC_018_RewardPoints&quot;/&gt;
+      &lt;class name=&quot;testCases.TC_019_Returns&quot;/&gt;
+      &lt;class name=&quot;testCases.TC_020_Transections&quot;/&gt;
+      &lt;class name=&quot;testCases.TC_021_RecurringPayment&quot;/&gt;
+      &lt;class name=&quot;testCases.TC_022_Newsletter&quot;/&gt;
+      &lt;class name=&quot;testCases.TC_023_Affiliate&quot;/&gt;
+      &lt;class name=&quot;testCases.TC_024_ContactUs&quot;/&gt;
+      &lt;class name=&quot;testCases.TC_025_SpecialOffer&quot;/&gt;
+      &lt;class name=&quot;testCases.TC_026_HeaderMenuFooterOptions&quot;/&gt;
+      &lt;class name=&quot;testCases.TC_027_GiftCertificate&quot;/&gt;
+      &lt;class name=&quot;testCases.TC_028_Currency&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- OpenCart Tests --&gt;
+&lt;/suite&gt; &lt;!-- OpenCart TestSuite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-OpenCart_TestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for OpenCart TestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">OpenCart Tests (27 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-OpenCart_TestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for OpenCart TestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">master</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">test_Login</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">test_account_Registration</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">regression</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">test_account_Registration</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">sanity</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">test_Login</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-OpenCart_TestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for OpenCart TestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_OpenCart_TestSuite');
+function tableData_OpenCart_TestSuite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(27);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'test_ShoppingCart')
+data.setCell(0, 2, 'testCases.TC_010_ShoppingCart')
+data.setCell(0, 3, 42702);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'test_wishlist')
+data.setCell(1, 2, 'testCases.TC_007_WishList')
+data.setCell(1, 3, 32334);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'test_addcart')
+data.setCell(2, 2, 'testCases.TC_005_Addcart')
+data.setCell(2, 3, 30804);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'test_Myaccount')
+data.setCell(3, 2, 'testCases.TC_012_MyAccount')
+data.setCell(3, 3, 26033);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'test_Newletter')
+data.setCell(4, 2, 'testCases.TC_022_Newsletter')
+data.setCell(4, 3, 23929);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'test_Newletter')
+data.setCell(5, 2, 'testCases.TC_023_Affiliate')
+data.setCell(5, 3, 22952);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'test_changepassword')
+data.setCell(6, 2, 'testCases.TC_014_ChangePassword')
+data.setCell(6, 3, 22548);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'test_Addressbook')
+data.setCell(7, 2, 'testCases.TC_015_AddressBook')
+data.setCell(7, 3, 21404);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'test_checkout')
+data.setCell(8, 2, 'testCases.TC_011_Checkout')
+data.setCell(8, 3, 21249);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'test_contactus')
+data.setCell(9, 2, 'testCases.TC_024_ContactUs')
+data.setCell(9, 3, 21062);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'test_productdisplay')
+data.setCell(10, 2, 'testCases.TC_008_ProductDisplayPage')
+data.setCell(10, 3, 20726);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'test_contactus')
+data.setCell(11, 2, 'testCases.TC_025_SpecialOffer')
+data.setCell(11, 3, 20364);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'test_HeaderFooterMenuOptions')
+data.setCell(12, 2, 'testCases.TC_027_GiftCertificate')
+data.setCell(12, 3, 20036);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'test_productcompare')
+data.setCell(13, 2, 'testCases.TC_006_ProductCompare')
+data.setCell(13, 3, 19081);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'test_MyAccountInformation')
+data.setCell(14, 2, 'testCases.TC_013_MyAccountInformation')
+data.setCell(14, 3, 18667);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'test_search')
+data.setCell(15, 2, 'testCases.TC_004Search')
+data.setCell(15, 3, 18539);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'test_forgotpassword')
+data.setCell(16, 2, 'testCases.TC_009_ForgotPassword')
+data.setCell(16, 3, 17615);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'test_Login')
+data.setCell(17, 2, 'testCases.TC_002_Login')
+data.setCell(17, 3, 17451);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'test_downloads')
+data.setCell(18, 2, 'testCases.TC_017_Downloads')
+data.setCell(18, 3, 17033);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'test_transections')
+data.setCell(19, 2, 'testCases.TC_020_Transections')
+data.setCell(19, 3, 15969);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'test_RewardPoint')
+data.setCell(20, 2, 'testCases.TC_018_RewardPoints')
+data.setCell(20, 3, 15771);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'test_Returns')
+data.setCell(21, 2, 'testCases.TC_019_Returns')
+data.setCell(21, 3, 15304);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'test_RecurringPayment')
+data.setCell(22, 2, 'testCases.TC_021_RecurringPayment')
+data.setCell(22, 3, 15286);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'test_OrderHistory')
+data.setCell(23, 2, 'testCases.TC_016_OderHistory')
+data.setCell(23, 3, 15230);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'test_HeaderFooterMenuOptions')
+data.setCell(24, 2, 'testCases.TC_026_HeaderMenuFooterOptions')
+data.setCell(24, 3, 14319);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'test_currency')
+data.setCell(25, 2, 'testCases.TC_028_Currency')
+data.setCell(25, 3, 14249);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'test_account_Registration')
+data.setCell(26, 2, 'testCases.TC_001_AccountRegistration')
+data.setCell(26, 3, 13771);
+window.suiteTableData['OpenCart_TestSuite']= { tableData: data, tableDiv: 'times-div-OpenCart_TestSuite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 10 minutes</span>
+              <div id="times-div-OpenCart_TestSuite">
+              </div> <!-- times-div-OpenCart_TestSuite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-OpenCart_TestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for OpenCart TestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-OpenCart_TestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-OpenCart_TestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TC_001_AccountRegistration</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(chrome)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">test_account_Registration</span>
+                <span class="method-start">5370 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">teadDown</span>
+                <span class="method-start">19161 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TC_002_Login</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(chrome)</span>
+                <span class="method-start">20336 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">test_Login</span>
+                <span class="method-start">22194 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">teadDown</span>
+                <span class="method-start">39646 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TC_004Search</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(chrome)</span>
+                <span class="method-start">40487 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">test_search</span>
+                <span class="method-start">42233 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">teadDown</span>
+                <span class="method-start">60774 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TC_005_Addcart</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(chrome)</span>
+                <span class="method-start">61533 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">test_addcart</span>
+                <span class="method-start">63268 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">teadDown</span>
+                <span class="method-start">94088 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TC_006_ProductCompare</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(chrome)</span>
+                <span class="method-start">94881 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">test_productcompare</span>
+                <span class="method-start">96476 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">teadDown</span>
+                <span class="method-start">115560 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TC_007_WishList</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(chrome)</span>
+                <span class="method-start">116277 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">test_wishlist</span>
+                <span class="method-start">118129 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">teadDown</span>
+                <span class="method-start">150464 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TC_008_ProductDisplayPage</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(chrome)</span>
+                <span class="method-start">151260 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">test_productdisplay</span>
+                <span class="method-start">153154 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">teadDown</span>
+                <span class="method-start">173881 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TC_009_ForgotPassword</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(chrome)</span>
+                <span class="method-start">174609 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">test_forgotpassword</span>
+                <span class="method-start">176487 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">teadDown</span>
+                <span class="method-start">194104 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TC_010_ShoppingCart</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(chrome)</span>
+                <span class="method-start">194951 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">test_ShoppingCart</span>
+                <span class="method-start">196610 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">teadDown</span>
+                <span class="method-start">239321 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TC_011_Checkout</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(chrome)</span>
+                <span class="method-start">240080 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">test_checkout</span>
+                <span class="method-start">241861 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">teadDown</span>
+                <span class="method-start">263111 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TC_012_MyAccount</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(chrome)</span>
+                <span class="method-start">263879 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">test_Myaccount</span>
+                <span class="method-start">265508 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">teadDown</span>
+                <span class="method-start">291543 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TC_013_MyAccountInformation</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(chrome)</span>
+                <span class="method-start">292266 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">test_MyAccountInformation</span>
+                <span class="method-start">294066 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">teadDown</span>
+                <span class="method-start">312734 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TC_014_ChangePassword</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(chrome)</span>
+                <span class="method-start">313503 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">test_changepassword</span>
+                <span class="method-start">315178 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">teadDown</span>
+                <span class="method-start">337728 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TC_015_AddressBook</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(chrome)</span>
+                <span class="method-start">338514 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">test_Addressbook</span>
+                <span class="method-start">340103 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">teadDown</span>
+                <span class="method-start">361511 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TC_016_OderHistory</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(chrome)</span>
+                <span class="method-start">362262 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">test_OrderHistory</span>
+                <span class="method-start">363897 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">teadDown</span>
+                <span class="method-start">379128 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TC_017_Downloads</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(chrome)</span>
+                <span class="method-start">379911 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">test_downloads</span>
+                <span class="method-start">381517 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">teadDown</span>
+                <span class="method-start">398551 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TC_018_RewardPoints</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(chrome)</span>
+                <span class="method-start">399402 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">test_RewardPoint</span>
+                <span class="method-start">400936 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">teadDown</span>
+                <span class="method-start">416709 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TC_019_Returns</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(chrome)</span>
+                <span class="method-start">417534 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">test_Returns</span>
+                <span class="method-start">419427 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">teadDown</span>
+                <span class="method-start">434732 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TC_020_Transections</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(chrome)</span>
+                <span class="method-start">435518 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">test_transections</span>
+                <span class="method-start">437172 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">teadDown</span>
+                <span class="method-start">453142 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TC_021_RecurringPayment</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(chrome)</span>
+                <span class="method-start">453930 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">test_RecurringPayment</span>
+                <span class="method-start">455678 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">teadDown</span>
+                <span class="method-start">470967 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TC_022_Newsletter</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(chrome)</span>
+                <span class="method-start">471769 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">test_Newletter</span>
+                <span class="method-start">473537 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">teadDown</span>
+                <span class="method-start">497467 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TC_023_Affiliate</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(chrome)</span>
+                <span class="method-start">498172 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">test_Newletter</span>
+                <span class="method-start">499916 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">teadDown</span>
+                <span class="method-start">522870 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TC_024_ContactUs</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(chrome)</span>
+                <span class="method-start">523650 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">test_contactus</span>
+                <span class="method-start">525294 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">teadDown</span>
+                <span class="method-start">546359 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TC_025_SpecialOffer</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(chrome)</span>
+                <span class="method-start">547156 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">test_contactus</span>
+                <span class="method-start">548860 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">teadDown</span>
+                <span class="method-start">569225 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TC_026_HeaderMenuFooterOptions</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(chrome)</span>
+                <span class="method-start">570086 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">test_HeaderFooterMenuOptions</span>
+                <span class="method-start">571679 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">teadDown</span>
+                <span class="method-start">586003 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TC_027_GiftCertificate</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(chrome)</span>
+                <span class="method-start">586875 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">test_HeaderFooterMenuOptions</span>
+                <span class="method-start">588682 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">teadDown</span>
+                <span class="method-start">608719 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TC_028_Currency</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(chrome)</span>
+                <span class="method-start">609550 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">test_currency</span>
+                <span class="method-start">611266 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">teadDown</span>
+                <span class="method-start">625517 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
